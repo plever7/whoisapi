@@ -1,0 +1,26 @@
+{
+    "name": "sarvan/whoisxmlapi-whoisapi",
+    "description": "WHOISXMLAPI REST api client in php",
+	"keywords": ["WHOISXMLAPI", "whoisapi", "whois", "client", "api", "php"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sarvan Ibishov",
+            "email": "sarvanibishov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+
+	"autoload": {
+		"psr-4": {
+		  "WhoisApi\\": "src/"
+		}
+	},
+    "require-dev": {
+      "phpmd/phpmd" : "@stable"
+    }
+}
